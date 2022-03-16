@@ -1,1 +1,1 @@
-# rsschool-cv
+https://RaccoonInASuit.github.io/rsschool-cv/cv
