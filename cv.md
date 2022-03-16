@@ -15,4 +15,42 @@ changing my career as i see a lot of growth opportunities in Forthcoming tasks, 
 
 Critical thinker, empathic, Respectful, Good communicator.
 
+## **Skills**
+* HTML ++++ 
+* JavaScript +++ 
+* CSS +++
+* Photoshop ++ 
+* ReactJS +++ 
+* GitLab ++
+* Node.js ++ 
+* MySQL ++
+
+## **Code Example**
+```angular2html
+  useEffect(() => {
+    axios.get("http://localhost:3001/posts").then((response) => {
+      setListOfPost(response.data);
+    }).finally(() => {
+      setIsLoading(false);
+    });
+  },[]);
+
+
+router.get("/", async (req, res) => {
+    const listOfPost = await Post.findAll();
+    res.json(listOfPost);
+});
+```
+
+## **Education**
+* **University:** Francisk Skorina Gomel State University (finance and credit
+  )
+* **Courses:**
+    + Udemy
+    + WayUp
+
+## **Languages**
+* **English:** A2
+
+
 
