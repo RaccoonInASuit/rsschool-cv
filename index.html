@@ -2,9 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>HTML, CSS & Git Basics</title>
 </head>
 <body>
-
+<header class="page-header">
+    <div class="container">
+        <a  class="header-email" href="mailto:kramarjaroslav@rambler.ru">kramarjaroslav@rambler.ru</a>
+        <a class="header-phone" href="tel:+375298341354">+375 29 834 13 54</a>
+    </div>
+</header>
+<section class="main-section">
+    <div class="container">
+        <h1>About</h1>
+        <div class="image-wrapper">
+            <figure>
+                <img class="image" src="files/user.jpg" width="500" height="600" alt="Фотография Енота в форме">
+            </figure>
+            <div class="info-wrapper">
+                <h2 class="name">Yaraslaw Kramar</h2>
+                <h2>Summary</h2>
+                <p>Completed HTML and CSS courses on online learning platforms. Also took courses on JavaScript and React on the Udemy
+                    platform. Partially familiar with Git technology and Figma
+                    Constantly working on my professional level, expanding my expertise and knowledge. I am passionate and excited about
+                    changing my career as i see a lot of growth opportunities in Forthcoming tasks, projects and prospects.
+                </p>
+                <h2>Personal skills</h2>
+                <p>Critical thinker, empathic, respectful, good communicator.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="skill-section">
+    <div class="container">
+        <h1>Skills</h1>
+        <table>
+            <tr><th>Skills</th><th>Knowledge level</th></tr>
+            <tr><td class="skill-html">HTML</td><td class="level-star">&#9733; &#9733; &#9733; &#9733;</td></tr>
+            <tr><td class="skill-css">CSS</td><td class="level-star">&#9733; &#9733; &#9733;</td></tr>
+            <tr><td class="skill-js">JavaScript</td><td class="level-star">&#9733; &#9733; &#9733;</td></tr>
+            <tr><td class="skill-react">ReactJS</td><td class="level-star">&#9733; &#9733;</td></tr>
+            <tr><td class="skill-git">GitLab</td><td class="level-star">&#9733;</td></tr>
+            <tr><td class="skill-figma">Figma</td><td class="level-star">&#9733; &#9733;</td></tr>
+            <tr><td class="skill-photoshop">Potoshop</td><td class="level-star">&#9733; &#9733;</td></tr>
+        </table>
+        <table class="educations">
+            <tr><th>Educations</th><th>Graduation year</th></tr>
+            <tr><td><a href="https://gymn14gomel.schools.by/" target="_blank">Gomel Gymnasium 14</a></td><td>2014</td></tr>
+            <tr><td><a href="http://gsu.by/" target="_blank">Francisk Skorina Gomel State University</a></td><td>2018</td></tr>
+        </table>
+    </div>
+</section>
+<section class="technical-skill-section">
+    <div class="container">
+        <h1>Technical skills</h1>
+        <form action="#" class="form">
+            <textarea tabindex="1" id="input_1" type="text" name="nameTextarea" class="textarea" placeholder="Введите что-то..." autocomplete="off" title="Comments"></textarea>
+            <button id="submit" type="submit" class="btn btn-form">Inspect</button>
+            <input tabindex="2" type="tel" name="nameInput" class="input" placeholder="+375XXXXXXXXX" id="dataPhone" required>
+            <div id="statusMessages"></div>
+        </form>
+    </div>
+</section>
+<footer class="page-footer">
+    <div class="container">
+        <a class="footer-link" href="http://gsu.by/" target="_blank">Francisk Skorina Gomel State University</a>
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
